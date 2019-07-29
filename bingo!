@@ -1,0 +1,33 @@
+name_o=("bingo")
+start=("there was a farmer who had a dog and bingo was his name-o")
+end=("and bingo was his name-o!")
+print(start)
+for x in name_o:
+    print((x)*3)
+print(end)
+print(start)
+name_o=name_o.replace("b", "!")
+for x in name_o:
+    print((x)*3)
+print(end)
+print(start)
+name_o=name_o.replace("i", "!")
+for x in name_o:
+    print((x)*3)
+print(end)
+print(start)
+name_o=name_o.replace("n", "!")
+for x in name_o:
+    print((x)*3)
+print(end)
+print(start)
+name_o=name_o.replace("g", "!")
+for x in name_o:
+    print((x)*3)
+print(end)
+print(start)
+name_o=name_o.replace("o", "!")
+for x in name_o:
+    print((x)*3)
+print(end)
+    
